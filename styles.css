@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.nav__container {
+  height: 80px;
+  display: flex;
+  background: #f8f8f8;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.nav__logo-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.nav__logo-container {
+  background-color: bisque;
+  padding: 1rem 1rem;
+  position: absolute;
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  height: 150px;
+  cursor: pointer;
+  transition: width 1s ease-in-out;
+}
+.nav__logo-container:hover {
+  background-color: bisque;
+  writing-mode: horizontal-tb;
+  position: relative;
+  height: auto;
+  transition: height 1s ease-in-out;
+}
+
+.nav__middle-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.nav__menu {
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+  text-transform: uppercase;
+}
+.nav-links {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.nav__right-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.login-btn,
+.signup-btn {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+}
+
+.signup-btn {
+  background-color: transparent;
+  border: 1px solid #aaa;
+}
+
+.header__container {
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header__left-container {
+  text-align: left;
+  display: flex;
+  flex: 1;
+  gap: 3rem;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 3rem;
+  overflow: hidden;
+}
+
+.header__title {
+  line-height: 70px;
+  text-align: left;
+  font-size: 70px;
+}
+
+.header__desc {
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.header__right-container {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__btn {
+  font-size: 1.25rem;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* End of header styles */
+
+/* ABOUT */
+
+.about__container {
+  padding: 3rem;
+  gap: 2rem;
+  width: 1300px;
+  display: flex;
+  height: 50vh;
+  margin: auto;
+  background-color: #f8f8f8;
+  flex-wrap: wrap;
+}
+
+.about__title {
+  font-size: 65px;
+}
+
+.about__left-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.about__right-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: 1.25rem;
+}
+
+#about {
+  background-color: #f8f8f8;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about__desc {
+  margin-top: 3rem;
+  line-height: 1.5;
+}
+
+.about__deco {
+  height: 40px;
+  width: 50%;
+  background-color: teal;
+}
+
+.about__head {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* End of About styles */
+
+/* CATEGORIES SECTION */
+.cat__container {
+  max-width: 1500px;
+  margin: auto;
+  padding: 3rem;
+}
+
+.cat__title {
+  font-size: 65px;
+}
+
+.cat__card-wrapper {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-container {
+  border: 1px solid #aaa;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* TOP PRODUCTS SECTION */
+.top-prod-container {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 3rem;
+}
+.top-prod-title {
+  font-size: 65px;
+}
+
+.prods-wrapper {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.prod-card-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.prod-img-container {
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 80%;
+}
+
+.prod-info-container {
+  font-size: 1rem;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 0 1rem;
+  justify-content: space-between;
+}
+
+.prod-img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
