@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "V-neck mini dress",
+        "description": "Short, A-line dress in a cotton weave. Deep V-neck front and back, narrow, tie-top shoulder straps, and horizontal ties at the back. Unlined.",
+        "price": 899,
+        "discountPercentage": 15.05,
+        "rating": 4.65,
+        "stock": 21,
+        "category": "dresses",
+        "thumbnail": "/images/products/dresses/dress01"
+    },
+    {
+        "id": 2,
+        "title": "V-neck dress",
+        "description": "Short dress in woven fabric with a slight sheen. Deep V-neck front and back with horizontal ties at the back of the neck, and voluminous, wide 3/4-length sleeves with narrow, covered elastication at the cuffs. Gathered seam under the bust at the front and at the back of the waist. Unlined.",
+        "price": 1190,
+        "rating": 4.65,
+        "stock": 21,
+        "category": "dresses",
+        "thumbnail": "/images/products/dresses/dress02"
+    },
+    {
+        "id": 3,
+        "title": "Ribbed jersey dress",
+        "description": "Long-sleeved dress in ribbed cotton jersey with a deep, round neckline, fitted bodice and flared skirt.",
+        "price": 1490,
+        "rating": 4.65,
+        "stock": 21,
+        "category": "dresses",
+        "thumbnail": "/images/products/dresses/dress03"
+    },
+    {
+        "id": 4,
+        "title": "Jersey bodycon dress",
+        "description": "Calf-length, sleeveless bodycon dress in jersey. Narrow, adjustable shoulder straps and a sweetheart neckline. Shaped cups, flat felled seams front and back, a seam at the waist and a straight-cut hem.",
+        "price": 1190,
+        "rating": 4.65,
+        "stock": 21,
+        "category": "dresses",
+        "thumbnail": "/images/products/dresses/dress02"
+    }
+    
+]
