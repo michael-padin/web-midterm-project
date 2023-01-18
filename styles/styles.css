@@ -414,7 +414,12 @@ div.sub-image:nth-child(2) {
   bottom: 50px;
 }
 
+.header__btn-container{
+  display: flex;
+}
+
 .header__btn {
+  text-decoration: none;
   font-size: 1.25rem;
   padding: 1rem 3rem;
   border-radius: 5px;
@@ -425,6 +430,7 @@ div.sub-image:nth-child(2) {
     hsl(301, 96%, 70%),
     hsl(248, 100%, 87%)
   );
+  padding: 1rem 4rem;
 }
 .header__btn:active {
   background: -webkit-linear-gradient(
@@ -434,9 +440,7 @@ div.sub-image:nth-child(2) {
   );
 }
 
-.header__btn > a {
-  color: #fefefe;
-}
+
 
 /* End of header styles */
 
